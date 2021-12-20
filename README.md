@@ -9,6 +9,7 @@ API have been developed using VS 2022 and .NET 6.
 API project needs to be run from VS.
 API uses API\AndCultureApi\Data\Breweries.json file as data source.
 API project should be in running state before React UI can be run.
+Note - If the build encounters and errors then Clean and Build will resolve the issue
 
 ## UI
 REST API url need to be relplaced in UI\src\Config.js file.
