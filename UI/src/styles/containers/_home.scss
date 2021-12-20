@@ -1,0 +1,64 @@
+.hero{
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+    min-height:30vh;
+    background: url("../../Assets/hero.png") no-repeat center/cover;
+  .container{
+      @include flexCenter;
+      flex-direction: column;
+      min-height: 30vh;
+        .title{
+           font-size: 2rem;
+           color: #fff;
+           font-weight: 500;
+           margin: 20px;
+           @include flexCenter;
+           flex-direction: column;
+           hr{
+               height: 1px;
+               border: 2px solid white;
+               background-color: #fff;
+               width: 50%;
+               border-radius: 10px;
+           }
+        }
+  }
+}
+.home-2{
+  margin-top: 50px;
+}
+.details{
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 1px auto;
+  
+  @media screen and (max-width:1100px) {
+     max-width: calc(100vw - 15%);}
+  @media screen and (max-width:600px) {
+    max-width: calc(100vw - 10%);
+  }
+  .content{
+    @include flexCenter();
+    justify-content: space-between;
+    h1{
+      color: darkgray;
+      font-weight: 500;
+      line-height: 36px;
+    }
+    h3{
+      font-weight: 400;
+      color: gray;
+    }
+    .secondary{
+      button{
+
+        .link{
+          color: white;
+        }
+     }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.card{
+    padding: 20px;
+max-width: 320px;
+color: white;
+background-color :#bd4f6c;
+background-image :linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+background-color :#20bf55;
+background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+box-shadow: 0.5rem 0.5rem 1rem rgba(0 0 0 / 0.15);
+align-self: center;
+justify-self: center;
+a{
+    color: white;
+}
+&:hover{
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0 0 0 / 0.25);
+}
+
+}
+
+// ----------------------------------------------------

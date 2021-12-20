@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    @media screen and (min-width:1200px) {
+        max-width:1200px;
+        margin: 1px auto;
+    }
+    @media screen and (max-width:600px) {
+        max-width: 300px;
+        margin: 1px auto;
+    }
+    @media screen and (max-width:900px) {
+        max-width: 750px;
+        margin: 1px auto;
+    }
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    @media screen and (max-width:600px) {
+        grid-template-columns:1fr;
+    }
+}
